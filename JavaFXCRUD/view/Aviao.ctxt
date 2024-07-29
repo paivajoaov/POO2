@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Aviao
+comment1.params=id\ nome\ capacidade\ tempoMaximoVoo
+comment1.target=Aviao(int,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=id
+comment3.target=void\ setId(int)
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=
+comment6.target=int\ getCapacidade()
+comment7.params=capacidade
+comment7.target=void\ setCapacidade(int)
+comment8.params=
+comment8.target=int\ getTempoMaximoVoo()
+comment9.params=tempoMaximoVoo
+comment9.target=void\ setTempoMaximoVoo(int)
+numComments=10
