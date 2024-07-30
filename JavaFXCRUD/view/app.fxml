@@ -12,7 +12,7 @@
 <VBox xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/15.0.1"
       fx:controller="controller.AppController" spacing="10" padding="10">
     
-    <!-- Formulário de Entrada -->
+    
     <GridPane hgap="10" vgap="10">
         <columnConstraints>
             <ColumnConstraints halignment="RIGHT" minWidth="10" prefWidth="100" />
@@ -26,7 +26,7 @@
         <TextField fx:id="tempoMaximoVooField" promptText="Tempo Máximo de Voo" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
     </GridPane>
 
-    <!-- Tabela de Aviões -->
+    
     <TableView fx:id="tabela" prefHeight="300" prefWidth="600">
         <columns>
             <TableColumn fx:id="idCol" text="ID" prefWidth="100"/>
@@ -36,7 +36,7 @@
         </columns>
     </TableView>
 
-    <!-- Botões de Ação -->
+    
     <VBox spacing="10" padding="10">
         <Button fx:id="adicionarButton" text="Adicionar" onAction="#onAdicionarButtonAction"/>
         <Button fx:id="atualizarButton" text="Atualizar" onAction="#onAtualizarButtonAction"/>
