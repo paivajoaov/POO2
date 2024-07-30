@@ -36,5 +36,5 @@ target3.height=70
 target3.name=app.fxml
 target3.type=ExternalFileTarget
 target3.width=120
-target3.x=10
-target3.y=110
+target3.x=20
+target3.y=170
